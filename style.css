@@ -21,6 +21,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
+  padding: 2rem 0;
 }
 
 .wrapper {
@@ -59,6 +60,7 @@ main {
 }
 
 .title--accent {
+  margin-bottom: 0.8rem;
   color: #c0df34;
 }
 
@@ -104,6 +106,8 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 15px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 /* SECTION 3 */
@@ -135,7 +139,7 @@ main {
     border-radius: 10px;
   }
   .title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .text {
     font-size: 1rem;
@@ -155,6 +159,10 @@ main {
   }
   .grid-item--2 {
     border-bottom-left-radius: 10px;
+  }
+  .cta-button:hover {
+    background-color: white;
+    color: #c0df34;
   }
   .grid-item--3 {
     border-bottom-left-radius: 0;
